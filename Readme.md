@@ -1,4 +1,4 @@
-# transfer Kelio results from hours into days
+# Convert Kelio results from hours into days
 This script updates the remaining vacation days in kelio from hours into days.  
 It will also add up all remaining days and shows you the result.
 
