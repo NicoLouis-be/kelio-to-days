@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name           Kelio Days
 // @description    transfers hours to remaining days
-// @version        1.6.3
+// @version        1.6.4
 // @run-at         document-start
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match          https://*.kelio.io/*
+// @downloadURL    https://raw.githubusercontent.com/NicoLouis-be/kelio-to-days/main/kelio-to-days.js
+// @updateURL      https://raw.githubusercontent.com/NicoLouis-be/kelio-to-days/main/kelio-to-days.js
 // @grant          none
 // ==/UserScript==
 
