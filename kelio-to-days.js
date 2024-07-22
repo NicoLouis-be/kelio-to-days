@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           Kelio Days
 // @description    transfers hours to remaining days
-// @version        1.6.4
+// @version        1.6.5
 // @run-at         document-start
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
 // @match          https://*.kelio.io/*
@@ -79,9 +79,9 @@ function updateSoldesSidebar() {
     jQuery(".soldes li:contains(Telework) .valeur").each(function(index, element){
         teleworkMinutes = toMinutes(element.title);
     });
-    jQuery(".soldes #infosSoldes").append('<hr><li id="solde7"><table cellpadding="0" cellspacing="0" border="0" width="200px" style="table-layout: fixed;"><tbody><tr><td class="libelle" width="60%" style="word-wrap: break-word">Total Remaining days</td><td class="valeur soldeNegatif" width="30%" title="0:00">'
-                                         + ((totalMinutes-teleworkMinutes) / minutesPerWorkDay()).toFixed(2)
-                                         + ' D</td></tbody></table></li>');
+    jQuery(".soldes dd").append('<hr><dd><ol><li id="solde7"><table cellpadding="0" cellspacing="0" border="0" width="200px" style="table-layout: fixed;"><tbody><tr><td class="libelle" width="60%" style="word-wrap: break-word">Total Remaining days</td><td class="valeur soldeNegatif" width="30%" title="0:00">'
+        + ((totalMinutes-teleworkMinutes) / minutesPerWorkDay()).toFixed(2)
+        + ' D</td></tbody></table></li></ol></dd>');
 }
 
 function updateMotifAbsences() {
