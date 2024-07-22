@@ -3,7 +3,7 @@ This script updates the remaining vacation days in kelio from hours into days.
 It will also add up all remaining days and shows you the result.
 
 ## result
-![before](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/before_inDays.png)  
+![before](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/before_inDays.png)
 ![after](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/after_inDays.png)
 
 ## How to use this
