@@ -2,6 +2,14 @@
 This script updates the remaining vacation days in kelio from hours into days.  
 It will also add up all remaining days and shows you the result.
 
+
+## result
+![before](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/before_inDays.png)
+![after](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/after_inDays.png)
+
+## How to use this
+Add the script in the Tampermonkey or greasemonkey add-on, depending on the browser you are using.  
+  
 This script will work on all pages of this url 
 ```
 https://*.kelio.io/*
@@ -11,14 +19,8 @@ if you have a custom local URL then change this line with you local url
 ```
 // @match          https://*.kelio.io/* 
 ```
-
-## result
-![before](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/before_inDays.png)
-![after](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/after_inDays.png)
-
-## How to use this
-Add the script in the Tampermonkey or greasemonkey add-on, depending on the browser you are using.  
-
+  
+## How to enable/disable auto updates
 Check the externals setting if you want to make use of the auto-update feature  
 ![auto-update](https://github.com/NicoLouis-be/kelio-to-days/blob/main/images/AutoUpdate.png)  
 
