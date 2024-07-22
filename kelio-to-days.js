@@ -4,6 +4,7 @@
 // @version        1.6.2
 // @run-at         document-start
 // @require        http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js
+// @match          https://*.kelio.io/*
 // @grant          none
 // ==/UserScript==
 
